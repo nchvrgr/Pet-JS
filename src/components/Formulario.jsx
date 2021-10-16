@@ -44,11 +44,11 @@ const Formulario = ({crearCita}) => {
             <h2>Crear cita</h2>
             <form onSubmit={submitCita}>
                 <label>Nombre de la mascota</label>
-                <input type="text" name="mascota" className="u-full-width" 
+                <input type="text" name="mascota" className="u-full-width" autoComplete={false} 
                 placeholder="Click aquí para escribir..." onChange={handleChange} value={mascota}/>
 
                 <label>Nombre del dueño</label>
-                <input type="text" name="dueño" className="u-full-width" 
+                <input type="text" name="dueño" className="u-full-width" autoComplete={false} 
                 placeholder="Click aquí para escribir..." onChange={handleChange} value={dueño}/>
 
                 <label>Fecha de la cita</label>
