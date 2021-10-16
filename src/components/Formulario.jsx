@@ -65,7 +65,7 @@ const Formulario = ({crearCita}) => {
                 onChange={handleChange} value={sintomas}/>
 
                 {error ? <p className="alerta-error"> Faltan datos </p> : null}
-                <button type="submit" className="u-full-width button-primary">Agregar cita</button>
+                <button type="submit" className="button agregar u-full-width button-primary">Agregar cita</button>
             </form>
         </Fragment>
     );
