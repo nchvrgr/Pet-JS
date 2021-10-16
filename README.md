@@ -1,8 +1,10 @@
-Aplicación simple de React para administrar pacientes en un veterinario. 
+### PET JS
 
-Se puede visitar este proyecto deployado en este [link](https://admin-pacientes.vercel.app/).
+Simple React app to manage the shift schedule of a veterinary
 
-Este es un programa que realicé como ejercicio de estados, react-forms, react-hooks y localStorage. Gracias a la implementación de localStorage los datos ingresados (citas) quedan guardadas a nivel local y se puede seguir teniéndolos incluso si se sale de la página y se vuelve más tarde.
+You can visit this app deployed [here](https://admin-pacientes.vercel.app/).
+
+This is a program that I made as an exercise of react state management, forms, hooks and localStorage. The shifts created are locally saved in each browser by using localStorage, so you can use this app, close it and keep the data saved to use it again in another moment. Hope you like it!
 
 <p align="center">
   <img src="./media/screenshot.png" align="center" heigth="300"/>

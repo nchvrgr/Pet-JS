@@ -6,28 +6,28 @@ const Cita = ({cita, eliminarCita}) => {
     return ( 
         <div className="cita">
             <p>  
-                <b> Mascota: </b> 
+                <b> Pet: </b> 
                 <span> {mascota} </span>
             </p>
             <p>  
-                <b> Dueño: </b>
+                <b> Owner: </b>
                 <span> {dueño} </span>
             </p>
             <p>  
-                <b> Fecha: </b>
+                <b> Date: </b>
                 <span> {fecha} </span>
             </p>
             <p>  
-                <b> Hora: </b>    
+                <b> Hour: </b>    
                 <span> {hora} </span>   
             </p>
             <p>  
-                <b> Síntomas: </b> 
+                <b> Pet description / symptoms: </b> 
                 <span> {sintomas} </span>
             </p>
             
             <button className="button eliminar u-full-width" onClick={() => eliminarCita(cita.id)}>
-                Eliminar &times;
+                Remove &times;
             </button>
 
         </div>

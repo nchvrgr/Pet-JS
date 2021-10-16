@@ -41,31 +41,31 @@ const Formulario = ({crearCita}) => {
 
     return (  
         <Fragment>
-            <h2>Crear cita</h2>
+            <h2>Create veterinary shift</h2>
             <form onSubmit={submitCita}>
-                <label>Nombre de la mascota</label>
+                <label>Pet name</label>
                 <input type="text" name="mascota" className="u-full-width" autoComplete={false} 
-                placeholder="Click aquí para escribir..." onChange={handleChange} value={mascota}/>
+                placeholder="Type here" onChange={handleChange} value={mascota}/>
 
-                <label>Nombre del dueño</label>
+                <label>Owner name</label>
                 <input type="text" name="dueño" className="u-full-width" autoComplete={false} 
-                placeholder="Click aquí para escribir..." onChange={handleChange} value={dueño}/>
+                placeholder="Type here" onChange={handleChange} value={dueño}/>
 
-                <label>Fecha de la cita</label>
+                <label>Date of the shift</label>
                 <input type="date" name="fecha" className="u-full-width" 
                 onChange={handleChange} value={fecha}/>
 
                 
-                <label>Horario de la cita</label>
+                <label>Hour of the shift</label>
                 <input type="time" name="hora" className="u-full-width" 
                 onChange={handleChange} value={hora}/>
 
-                <label>Síntomas</label>
-                <textarea className="u-full-width" name="sintomas" placeholder="Escribe aquí"
+                <label>Pet description / symptoms</label>
+                <textarea className="u-full-width" name="sintomas" placeholder="Type here"
                 onChange={handleChange} value={sintomas}/>
 
-                {error ? <p className="alerta-error"> Faltan datos </p> : null}
-                <button type="submit" className="button agregar u-full-width button-primary">Agregar cita</button>
+                {error ? <p className="alerta-error"> Missing data </p> : null}
+                <button type="submit" className="button agregar u-full-width button-primary">Create shift</button>
             </form>
         </Fragment>
     );

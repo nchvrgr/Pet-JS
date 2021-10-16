@@ -10,8 +10,11 @@ body {
   padding-bottom: 5rem;
 }
 
+
+
 h1 {
-  color: #61210F;
+  color: white;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.207);
   text-align: center;
   text-transform: uppercase;
   font-family: 'Staatliches', cursive;
@@ -112,3 +115,17 @@ input[type="time"] {
   box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px 1px;
 }
 
+footer{
+  padding-top: 2em;
+  text-align: center;
+  color: white;
+}
+
+a{
+  color: rgb(70, 241, 253);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(58, 198, 208);
+}
